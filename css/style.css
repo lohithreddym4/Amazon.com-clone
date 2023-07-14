@@ -636,7 +636,7 @@ li a:visited{
 
 /* ************media-queries************ */
 
-@media(max-width:400px){
+@media(max-width:620px){
     .navbar{
     height:40px;
     background-color: #0f1111;
@@ -645,7 +645,6 @@ li a:visited{
     justify-content: space-evenly;
     align-items:center;
     }
-    
     .logodiv{
         width:50px;
         height: 40px;
@@ -1156,5 +1155,40 @@ li a:visited{
         display:flex;
         justify-content: center;
     }
+    .foo{
+        height:100px;
+        width:120px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
 
+}
+@media((width>=620px) and (width<=1100px)){
+.deal4,.deal1{
+    display:none;
+}
+.sec5,.sec7{
+    display: none;
+}
+.shopsec h2{
+    font-size: 10px;
+}
+.box{
+    height:180px;
+}
+.foo{
+    height:130px;
+    background-repeat: no-repeat;
+    
+}
+}
+@media((width >=620px) and ( width<=820px)){
+    .foot4{
+        display:none;
+    }
+    .ex,.ex1{
+        display:none;
+
+    }
 }
