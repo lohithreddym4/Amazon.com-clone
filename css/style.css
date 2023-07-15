@@ -634,6 +634,7 @@ li a:visited{
     justify-content: center;
 }
 
+
 /* ************media-queries************ */
 
 @media(max-width:620px){
@@ -1191,4 +1192,20 @@ li a:visited{
         display:none;
 
     }
+}
+
+@media(width>650px){
+
+    .box:hover .foo{
+        animation: effect 0.55s ease-in 0s ;
+        animation-fill-mode: forwards;
+    }
+}
+@keyframes effect{
+    to{
+        padding: 8px;
+    }
+}.secimg:hover{
+    animation: effect 0.55s ease-in 0s ;
+    animation-fill-mode: forwards;
 }
