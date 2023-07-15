@@ -599,7 +599,12 @@ li a:visited{
     justify-content: center;
 }
 .infoot4 a:hover .thin {
+    color:#999999;
     text-decoration: #999999 underline;
+}
+.infoot4 a:hover .thick {
+    color:#dddddd;
+    text-decoration: #dddddd underline;
 }
 
 /* *************cpt******************************** */
