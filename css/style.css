@@ -598,11 +598,11 @@ li a:visited{
     display: flex;
     justify-content: center;
 }
-.infoot4 a:hover .thin {
+.infoot4 a:hover .thin,.infoot4 a:hover .thin:visited {
     color:#999999;
     text-decoration: #999999 underline;
 }
-.infoot4 a:hover .thick {
+.infoot4 a:hover .thick ,.infoot4 a:hover .thick:visited{
     color:#dddddd;
     text-decoration: #dddddd underline;
 }
