@@ -733,6 +733,7 @@ li a:visited{
         justify-content: space-evenly;
         border-radius: 3px;
         margin-right:20px;
+        outline-style: none;
     }
     .searchselect{
         background-color: #f3f3f3;
@@ -743,6 +744,7 @@ li a:visited{
         border: none;
         text-align: center;
         font-size: 7px;
+        outline: none;
     }
     .searchicon{
         display:flex;
@@ -753,6 +755,7 @@ li a:visited{
     }
     .searchinput{
         width:90%;
+        outline:none;
         border : none;
         font-size: 7px;
     }
